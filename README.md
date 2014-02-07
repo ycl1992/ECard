@@ -1,4 +1,4 @@
-#ECard(Building...)
+#ECard
 
 简介
 
