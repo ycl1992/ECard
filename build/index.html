@@ -9,80 +9,112 @@
 <div class="black_h_100">
 	<div class="center_1003">
     	<a class="logo f_l" href="/">ECard</a>
-        <div class="login f_r"><a href="#reg">注册</a><a href="#login">登录</a></div>
+        <div class="login f_r"><!-- <a href="#reg"><img src="noavatar_middle.gif" width="90"></a> --><a href="#login">登录</a></div>
         <div class="cc"></div>
     </div>
 </div>
 <!-- 内容 -->
-<div class="index_main center_1003">
-    <div class="left f_l">
+<div class="main center_1003">
+    <div class="index_main">
     	<div class="search">
-        	<form action="" method="post">
-        	  <a href="#" class="submit f_r">查找</a><input name="s" type="text" class="text"  placeholder="卡片编号">
-              <div class="cc"></div>
-            </form>
+       	  <form action="" method="post" name="form1">
+            <div class="submit f_r" onClick="form1.submit();">查找</div>
+                  <select name="key" class="select">
+                    <option value="1">卡片编号</option>
+                    <option value="2">会员编号</option>
+                    <option value="3">库编号</option>
+          			</select>
+                  <input name="s" type="text" class="text"/>
+                  <div class="cc"></div>
+          </form>
         </div>
-        <div class="card">
-        	<div class="l">
-            	<p>热</p>
-            	<p>&nbsp;</p>
-            	<p>门</p>
-            	<p>&nbsp;</p>
-            	<p>卡</p>
-            	<p>&nbsp;</p>
-            	<p>片</p>
-        	</div>
-            <div class="blank ecard f_l" style="background:url(card.jpg)">
-            	一号卡的内容
-            </div>
-            <div class="blank ecard f_l" style="background:url(card.jpg)">
-            	二号卡的内容
-            </div>
-            <div class="cc"></div>
-      </div>
-        <div class="card">
-        	<div class="l">
-            	<p>最</p>
-            	<p>&nbsp;</p>
-            	<p>新</p>
-            	<p>&nbsp;</p>
-            	<p>卡</p>
-            	<p>&nbsp;</p>
-            	<p>片</p>
-        	</div>
-            <div class="blank ecard f_l" style="background:url(card.jpg)">
-            	一号卡的内容
-            </div>
-            <div class="blank ecard f_l" style="background:url(card.jpg)">
-            	二号卡的内容
-            </div>
-            <div class="cc"></div>
-      </div>
-    </div>
-    <div class="right f_r">
-    	<div class="left f_l">
-        	<div class="top">标签</div>
+        <div class="line_title">众爱卡片</div>
             <ul>
-            	<li><a href="#">长标签测试</a></li>
-                <li><a href="#">测试2</a></li>
-                <li><a href="#">测试3</a></li>
-                <li><a href="#">测试4</a></li>
-                <div class="cc"></div>
+            	<li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
             </ul>
-            <div class="change"><a href="#">换一换</a></div>
-        </div>
-        <div class="right f_r">
-        	<div class="top">新会员</div>
-			<ul>
-				<li><a href="#"><img src="noavatar_middle.gif"></a></li>
-				<li><a href="#"><img src="noavatar_middle.gif"></a></li>
-				<li><a href="#"><img src="noavatar_middle.gif"></a></li>
-				<li><a href="#"><img src="noavatar_middle.gif"></a></li>
-			</ul>
-        </div>
-      </div>
-  <div class="cc"></div>
+            <div class="line_title cc">最新卡片</div>
+            <ul>
+            	<li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+            </ul>
+      <div class="line_title cc">幸运卡片</div>
+            <ul>
+            	<li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+                <li>
+                	<a href="#" class="ecard" style="background:url(card.jpg)">
+            			一号卡的内容
+            		</a>
+            	</li>
+            </ul>
+            <div class="blank cc"></div>
     </div>
+</div>
 <!-- 底部 -->
 <div class="black_h_100">
   <div class="center_1003">
