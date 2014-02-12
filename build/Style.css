@@ -111,6 +111,21 @@ body {
 	font-weight: bold;
 }
 
+.login_login .red_msg {
+	color: #FF0000;
+	font-size: 12px;
+	line-height: 35px;
+	text-align: center;
+}
+.login_login .red_msg span {
+	cursor: hand;
+	cursor:pointer;
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+
+
 .index_main  {
 	padding-top: 30px;
 }
@@ -186,4 +201,82 @@ body {
 	border-right-color: #000000;
 	height: 300px;
 	padding-top: 200px;
+}
+
+.login_bk {
+	background-image: url(login_bk.jpg);
+	text-align: center;
+}
+.login_login {
+	background-image: url(login_form_header.jpg);
+	background-repeat: repeat-y;
+	width: 600px;
+	margin-left: -300px;
+	height: 410px;
+	padding-top: 2px;
+	margin-top: -205px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.login_top {
+	background-color: #000000;
+	height: 90px;
+	text-align: left;
+	color: #666666;
+	font-size: 50px;
+	line-height: 90px;
+	padding-left: 30px;
+	font-weight: bolder;
+	margin: 0px;
+	cursor: hand;
+	cursor:pointer;
+}
+.login_login form {
+	background-color: #FFFFFF;
+	margin: 0px;
+	height: 408px;
+	text-align: left;
+}
+.login_login input {
+	display: block;
+	width: 500px;
+	margin-top: 15px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	font-size: 30px;
+	line-height: 50px;
+	padding-left: 60px;
+}
+.login_login form .user {
+	background-image: url(3289.png);
+	background-repeat: no-repeat;
+	background-position: 15px 8px;
+}
+.login_login form .pwd {
+	background-image: url(3250.png);
+	background-repeat: no-repeat;
+	background-position: 15px 8px;
+}
+.login_login form .yzm {
+	background-image: url(3271.png);
+	background-repeat: no-repeat;
+	background-position: 15px 8px;
+	width: 300px;
+	display: inherit;
+}
+.login_login form .yzm_img{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.login_login  form  .ie_ctrl {
+	padding-left: 35px;
+}
+.login_login form .but {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0px;
+	cursor: pointer;
+	margin-top: 30px;
 }
